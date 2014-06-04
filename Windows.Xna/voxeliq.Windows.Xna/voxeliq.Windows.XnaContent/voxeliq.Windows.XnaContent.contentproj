@@ -100,7 +100,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\..\..\Source\Content\Models\AimedBlock.x">
-	<Link>Content\Models\AimedBlock.x</Link>
+	<Link>Models\AimedBlock.x</Link>
       <Name>AimedBlock</Name>
       <Importer>XImporter</Importer>
       <Processor>ModelProcessor</Processor>
@@ -147,7 +147,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\assets\models\Mii.FBX">
+    <Compile Include="..\..\..\Source\Content\Models\Mii.FBX">
 	<Link>Textures\terrain.png</Link>
       <Link>Models\Mii.FBX</Link>
       <Name>Mii</Name>
@@ -189,15 +189,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\assets\audio\music\ambient\forestAmbient.wav">
-	<Link>audio\music\forestAmbient.wav</Link>
+    <Compile Include="..\..\..\Source\Content\Audio\Music\Ambient\forestAmbient.wav">
+	<Link>Audio\Music\Ambient\forestAmbient.wav</Link>
       <Link>Audio\Music\Ambient\forestAmbient.wav</Link>
       <Name>forestAmbient</Name>
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
     </Compile>
-    <Compile Include="..\..\assets\audio\music\ambient\frogsAmbient.wav">
-	<Link>audio\music\frogsAmbient.wav</Link>
+    <Compile Include="..\..\..\Source\Content\Audio\Music\Ambient\frogsAmbient.wav">
       <Link>Audio\Music\Ambient\frogsAmbient.wav</Link>
       <Name>frogsAmbient</Name>
       <Importer>WavImporter</Importer>
