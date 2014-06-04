@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F3D9BF6D-A44C-4AEE-8FA5-0389700D410A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Voxeliq.Windows</RootNamespace>
+    <AssemblyName>Voxeliq.Windows</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Source\Engine\Platforms\Config\DebuggerConfig.cs">
+      <Link>Engine\Platforms\Config\DebuggerConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Platforms\Config\GraphicsConfig.cs">
+      <Link>Engine\Platforms\Config\GraphicsConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Platforms\Config\InputConfig.cs">
+      <Link>Engine\Platforms\Config\InputConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Platforms\Config\PlatformConfig.cs">
+      <Link>Engine\Platforms\Config\PlatformConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Platforms\Config\ScreenConfig.cs">
+      <Link>Engine\Platforms\Config\ScreenConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Assets\AssetManager.cs">
+      <Link>Engine\Assets\AssetManager.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Audio\AudioManager.cs">
+      <Link>Engine\Audio\AudioManager.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Blocks\Block.cs">
+      <Link>Engine\Blocks\Block.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Blocks\BlockStorage.cs">
+      <Link>Engine\Blocks\BlockStorage.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Blocks\BlockVertex.cs">
+      <Link>Engine\Blocks\BlockVertex.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Blocks\PositionedBlock.cs">
+      <Link>Engine\Blocks\PositionedBlock.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Chunks\Chunk.cs">
+      <Link>Engine\Chunks\Chunk.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Chunks\ChunkCache.cs">
+      <Link>Engine\Chunks\ChunkCache.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Chunks\ChunkState.cs">
+      <Link>Engine\Chunks\ChunkState.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Chunks\ChunkStorage.cs">
+      <Link>Engine\Chunks\ChunkStorage.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Chunks\Generators\Biomes\AntarticTundra.cs">
+      <Link>Engine\Chunks\Generators\Biomes\AntarticTundra.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Chunks\Generators\Biomes\BiomeGenerator.cs">
+      <Link>Engine\Chunks\Generators\Biomes\BiomeGenerator.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Chunks\Generators\Biomes\Desert.cs">
+      <Link>Engine\Chunks\Generators\Biomes\Desert.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Chunks\Generators\Biomes\RainForest.cs">
+      <Link>Engine\Chunks\Generators\Biomes\RainForest.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Chunks\Generators\Terrain\BiomedTerrain.cs">
+      <Link>Engine\Chunks\Generators\Terrain\BiomedTerrain.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Chunks\Generators\Terrain\FlatDebugTerrain.cs">
+      <Link>Engine\Chunks\Generators\Terrain\FlatDebugTerrain.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Chunks\Generators\Terrain\MountainousTerrain.cs">
+      <Link>Engine\Chunks\Generators\Terrain\MountainousTerrain.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Chunks\Generators\Terrain\TerrainGenerator.cs">
+      <Link>Engine\Chunks\Generators\Terrain\TerrainGenerator.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Chunks\Generators\Terrain\ValleyTerrain.cs">
+      <Link>Engine\Chunks\Generators\Terrain\ValleyTerrain.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Chunks\Populators\TreePopulator.cs">
+      <Link>Engine\Chunks\Populators\TreePopulator.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Chunks\Processors\Lightning.cs">
+      <Link>Engine\Chunks\Processors\Lightning.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Chunks\Processors\VertexBuilder.cs">
+      <Link>Engine\Chunks\Processors\VertexBuilder.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Common\DoubleIndexedDictionary.cs">
+      <Link>Engine\Common\DoubleIndexedDictionary.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Common\SparseMatrix.cs">
+      <Link>Engine\Common\SparseMatrix.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Common\Extensions\ArrayExtensions.cs">
+      <Link>Engine\Common\Extensions\ArrayExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Common\Extensions\BigIntegerExtensions.cs">
+      <Link>Engine\Common\Extensions\BigIntegerExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Common\Extensions\DateTimeExtensions.cs">
+      <Link>Engine\Common\Extensions\DateTimeExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Common\Extensions\EnumerableExtensions.cs">
+      <Link>Engine\Common\Extensions\EnumerableExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Common\Extensions\ListExtensions.cs">
+      <Link>Engine\Common\Extensions\ListExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Common\Extensions\NumberExtensions.cs">
+      <Link>Engine\Common\Extensions\NumberExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Common\Extensions\StringBuilderExtensions.cs">
+      <Link>Engine\Common\Extensions\StringBuilderExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Common\Extensions\StringExtensions.cs">
+      <Link>Engine\Common\Extensions\StringExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Common\Helpers\ConcurrentList.cs">
+      <Link>Engine\Common\Helpers\ConcurrentList.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Common\Helpers\IO\FileHelper.cs">
+      <Link>Engine\Common\Helpers\IO\FileHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Common\Logging\ConsoleTarget.cs">
+      <Link>Engine\Common\Logging\ConsoleTarget.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Common\Logging\FileTarget.cs">
+      <Link>Engine\Common\Logging\FileTarget.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Common\Logging\Logger.cs">
+      <Link>Engine\Common\Logging\Logger.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Common\Logging\LogManager.cs">
+      <Link>Engine\Common\Logging\LogManager.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Common\Logging\LogRouter.cs">
+      <Link>Engine\Common\Logging\LogRouter.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Common\Logging\LogTarget.cs">
+      <Link>Engine\Common\Logging\LogTarget.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Common\Math\MathHelper.cs">
+      <Link>Engine\Common\Math\MathHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Common\Noise\PerlinNoise.cs">
+      <Link>Engine\Common\Noise\PerlinNoise.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Common\Noise\SimplexNoise.cs">
+      <Link>Engine\Common\Noise\SimplexNoise.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Common\Randomization\FastRandom.cs">
+      <Link>Engine\Common\Randomization\FastRandom.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Common\Randomization\RandomHelper.cs">
+      <Link>Engine\Common\Randomization\RandomHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Common\Vector\Vector2Int.cs">
+      <Link>Engine\Common\Vector\Vector2Int.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Common\Vector\Vector3Int.cs">
+      <Link>Engine\Common\Vector\Vector3Int.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Common\Vector\Vector4Byte.cs">
+      <Link>Engine\Common\Vector\Vector4Byte.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Core\Engine.cs">
+      <Link>Engine\Core\Engine.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Core\Config\AudioConfig.cs">
+      <Link>Engine\Core\Config\AudioConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Core\Config\BloomConfig.cs">
+      <Link>Engine\Core\Config\BloomConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Core\Config\CacheConfig.cs">
+      <Link>Engine\Core\Config\CacheConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Core\Config\ChunkConfig.cs">
+      <Link>Engine\Core\Config\ChunkConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Core\Config\DebugConfig.cs">
+      <Link>Engine\Core\Config\DebugConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Core\Config\EngineConfig.cs">
+      <Link>Engine\Core\Config\EngineConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Core\Config\GraphicsConfig.cs">
+      <Link>Engine\Core\Config\GraphicsConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Core\Config\WorldConfig.cs">
+      <Link>Engine\Core\Config\WorldConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Debugging\Commands.cs">
+      <Link>Engine\Debugging\Commands.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Debugging\DebugBar.cs">
+      <Link>Engine\Debugging\DebugBar.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Debugging\Console\Command.cs">
+      <Link>Engine\Debugging\Console\Command.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Debugging\Console\CommandAttributes.cs">
+      <Link>Engine\Debugging\Console\CommandAttributes.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Debugging\Console\CommandHistory.cs">
+      <Link>Engine\Debugging\Console\CommandHistory.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Debugging\Console\CommandManager.cs">
+      <Link>Engine\Debugging\Console\CommandManager.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Debugging\Console\CommandProcesser.cs">
+      <Link>Engine\Debugging\Console\CommandProcesser.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Debugging\Console\GameConsole.cs">
+      <Link>Engine\Debugging\Console\GameConsole.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Debugging\Console\GameConsoleComponent.cs">
+      <Link>Engine\Debugging\Console\GameConsoleComponent.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Debugging\Console\GameConsoleOptions.cs">
+      <Link>Engine\Debugging\Console\GameConsoleOptions.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Debugging\Console\InputProcessor.cs">
+      <Link>Engine\Debugging\Console\InputProcessor.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Debugging\Console\KeyEventArgs.cs">
+      <Link>Engine\Debugging\Console\KeyEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Debugging\Console\OutputLine.cs">
+      <Link>Engine\Debugging\Console\OutputLine.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Debugging\Console\Renderer.cs">
+      <Link>Engine\Debugging\Console\Renderer.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Debugging\Graphs\DebugGraph.cs">
+      <Link>Engine\Debugging\Graphs\DebugGraph.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Debugging\Graphs\GraphManager.cs">
+      <Link>Engine\Debugging\Graphs\GraphManager.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Debugging\Graphs\Implementations\FPSGraph.cs">
+      <Link>Engine\Debugging\Graphs\Implementations\FPSGraph.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Debugging\Graphs\Implementations\MemGraph.cs">
+      <Link>Engine\Debugging\Graphs\Implementations\MemGraph.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Debugging\Graphs\Implementations\ChunkGraphs\BuildQ.cs">
+      <Link>Engine\Debugging\Graphs\Implementations\ChunkGraphs\BuildQ.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Debugging\Graphs\Implementations\ChunkGraphs\GenerateQ.cs">
+      <Link>Engine\Debugging\Graphs\Implementations\ChunkGraphs\GenerateQ.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Debugging\Graphs\Implementations\ChunkGraphs\LightenQ.cs">
+      <Link>Engine\Debugging\Graphs\Implementations\ChunkGraphs\LightenQ.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Debugging\Graphs\Implementations\ChunkGraphs\ReadyQ.cs">
+      <Link>Engine\Debugging\Graphs\Implementations\ChunkGraphs\ReadyQ.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Debugging\Graphs\Implementations\ChunkGraphs\RemoveQ.cs">
+      <Link>Engine\Debugging\Graphs\Implementations\ChunkGraphs\RemoveQ.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Debugging\Ingame\BoundingBoxRenderer.cs">
+      <Link>Engine\Debugging\Ingame\BoundingBoxRenderer.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Debugging\Ingame\InGameDebugger.cs">
+      <Link>Engine\Debugging\Ingame\InGameDebugger.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Debugging\Profiling\Profiler.cs">
+      <Link>Engine\Debugging\Profiling\Profiler.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Debugging\Timing\Layout.cs">
+      <Link>Engine\Debugging\Timing\Layout.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Debugging\Timing\TimeRuler.cs">
+      <Link>Engine\Debugging\Timing\TimeRuler.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Graphics\Camera.cs">
+      <Link>Engine\Graphics\Camera.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Graphics\Commands.cs">
+      <Link>Engine\Graphics\Commands.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Graphics\GraphicsManager.cs">
+      <Link>Engine\Graphics\GraphicsManager.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Graphics\Rasterizer.cs">
+      <Link>Engine\Graphics\Rasterizer.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Graphics\Drawing\BasicShapes.cs">
+      <Link>Engine\Graphics\Drawing\BasicShapes.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Graphics\Drawing\PrimitiveBatch.cs">
+      <Link>Engine\Graphics\Drawing\PrimitiveBatch.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Graphics\Effects\PostProcessing\Bloom\BloomComponent.cs">
+      <Link>Engine\Graphics\Effects\PostProcessing\Bloom\BloomComponent.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Graphics\Effects\PostProcessing\Bloom\BloomSettings.cs">
+      <Link>Engine\Graphics\Effects\PostProcessing\Bloom\BloomSettings.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Graphics\Effects\PostProcessing\Bloom\Commands.cs">
+      <Link>Engine\Graphics\Effects\PostProcessing\Bloom\Commands.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Graphics\Texture\DualTextured.cs">
+      <Link>Engine\Graphics\Texture\DualTextured.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Graphics\Texture\TextureHelper.cs">
+      <Link>Engine\Graphics\Texture\TextureHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Input\InputManager.cs">
+      <Link>Engine\Input\InputManager.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Interface\UserInterface.cs">
+      <Link>Engine\Interface\UserInterface.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Platforms\Frameworks.cs">
+      <Link>Engine\Platforms\Frameworks.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Platforms\GraphicsAPI.cs">
+      <Link>Engine\Platforms\GraphicsAPI.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Platforms\PlatformHandler.cs">
+      <Link>Engine\Platforms\PlatformHandler.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Platforms\PlatformHelper.cs">
+      <Link>Engine\Platforms\PlatformHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Platforms\PlatformManager.cs">
+      <Link>Engine\Platforms\PlatformManager.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Platforms\Platforms.cs">
+      <Link>Engine\Platforms\Platforms.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Platforms\VersionInfo.cs">
+      <Link>Engine\Platforms\VersionInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Properties\AssemblyInfo.cs">
+      <Link>Properties\AssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Sky\NewSky.cs">
+      <Link>Engine\Sky\NewSky.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Universe\Commands.cs">
+      <Link>Engine\Universe\Commands.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Universe\Fogger.cs">
+      <Link>Engine\Universe\Fogger.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Universe\Player.cs">
+      <Link>Engine\Universe\Player.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Universe\Shovel.cs">
+      <Link>Engine\Universe\Shovel.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Universe\Sky.cs">
+      <Link>Engine\Universe\Sky.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Universe\Time.cs">
+      <Link>Engine\Universe\Time.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Universe\Weapon.cs">
+      <Link>Engine\Universe\Weapon.cs</Link>
+    </Compile>
+    <Compile Include="..\Source\Engine\Universe\World.cs">
+      <Link>Engine\Universe\World.cs</Link>
+    </Compile>
+    <Compile Include="WindowsHelper.cs" />
+    <Compile Include="WindowsPlatform.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="packages\MonoGame.Binaries.3.2.0\build\net40\MonoGame.Binaries.targets" Condition="Exists('packages\MonoGame.Binaries.3.2.0\build\net40\MonoGame.Binaries.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\MonoGame.Binaries.3.2.0\build\net40\MonoGame.Binaries.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\MonoGame.Binaries.3.2.0\build\net40\MonoGame.Binaries.targets'))" />
+  </Target>
+</Project>
