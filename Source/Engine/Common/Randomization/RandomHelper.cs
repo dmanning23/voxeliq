@@ -9,7 +9,7 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 
-namespace Engine.Common.Randomization
+namespace Voxeliq.Engine.Common.Randomization
 {
     public class RandomHelper
     {

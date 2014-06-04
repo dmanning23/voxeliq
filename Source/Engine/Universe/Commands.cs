@@ -5,9 +5,9 @@
  * it under the terms of the Microsoft Public License (Ms-PL).
  */
 
-using Engine.Debugging.Console;
+using Voxeliq.Engine.Debugging.Console;
 
-namespace Engine.Universe
+namespace Voxeliq.Engine.Universe
 {
     [Command("fly", "Sets the flying mode.\nusage: fly [on|off]")]
     public class FlyCommand : Command

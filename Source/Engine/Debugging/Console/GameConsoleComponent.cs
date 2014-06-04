@@ -10,7 +10,7 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Engine.Debugging.Console
+namespace Voxeliq.Engine.Debugging.Console
 {
     class GameConsoleComponent : DrawableGameComponent
     {

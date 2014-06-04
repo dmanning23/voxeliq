@@ -6,11 +6,11 @@
  */
 
 using System;
-using Engine.Common.Logging;
+using Voxeliq.Engine.Common.Logging;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Engine.Assets
+namespace Voxeliq.Engine.Assets
 {
     /// <summary>
     /// Asset manager that loads assets at the very first loading.

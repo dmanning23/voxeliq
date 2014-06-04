@@ -5,9 +5,9 @@
  * it under the terms of the Microsoft Public License (Ms-PL).
  */
 
-using Engine.Debugging.Console;
+using Voxeliq.Engine.Debugging.Console;
 
-namespace Engine.Graphics
+namespace Voxeliq.Engine.Graphics
 {
     [Command("vsync", "Sets the vsync mode.\nusage: vsync [on|off]")]
     public class VSyncCommand:Command

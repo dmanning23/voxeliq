@@ -7,17 +7,17 @@
 
 using System;
 using System.Collections.Generic;
-using Engine.Assets;
-using Engine.Blocks;
-using Engine.Common.Logging;
-using Engine.Graphics;
-using Engine.Graphics.Texture;
-using Engine.Universe;
+using Voxeliq.Engine.Assets;
+using Voxeliq.Engine.Blocks;
+using Voxeliq.Engine.Common.Logging;
+using Voxeliq.Engine.Graphics;
+using Voxeliq.Engine.Graphics.Texture;
+using Voxeliq.Engine.Universe;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Graphics.PackedVector;
 
-namespace Engine.Sky
+namespace Voxeliq.Engine.Sky
 {
     public interface INewSky
     {

@@ -8,7 +8,7 @@
 using System;
 using System.Numerics;
 
-namespace Engine.Common.Extensions
+namespace Voxeliq.Engine.Common.Extensions
 {
     public static class BigIntegerExtensions
     {

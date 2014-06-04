@@ -5,9 +5,9 @@
  * it under the terms of the Microsoft Public License (Ms-PL).
  */
 
-using Engine.Debugging.Console;
+using Voxeliq.Engine.Debugging.Console;
 
-namespace Engine.Debugging
+namespace Voxeliq.Engine.Debugging
 {
     [Command("debug-graphs", "Sets the debug graphs mode.\nusage: debug-graphs [on|off]")]
     public class VSyncCommand:Command

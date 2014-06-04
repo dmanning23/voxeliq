@@ -5,7 +5,7 @@
  * it under the terms of the Microsoft Public License (Ms-PL).
  */
 
-namespace Engine.Core.Config
+namespace Voxeliq.Engine.Core.Config
 {
     public class DebugConfig
     {

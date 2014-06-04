@@ -9,9 +9,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Engine.Common.Logging;
+using Voxeliq.Engine.Common.Logging;
 
-namespace Engine.Debugging.Console
+namespace Voxeliq.Engine.Debugging.Console
 {
     public static class CommandManager
     {

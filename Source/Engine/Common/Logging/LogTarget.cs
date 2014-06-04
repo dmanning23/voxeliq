@@ -7,7 +7,7 @@
 
 using System;
 
-namespace Engine.Common.Logging
+namespace Voxeliq.Engine.Common.Logging
 {
     /// <summary>
     /// Log target.

@@ -5,10 +5,10 @@
  * it under the terms of the Microsoft Public License (Ms-PL).
  */
 
-using Engine.Common.Logging;
+using Voxeliq.Engine.Common.Logging;
 using Microsoft.Xna.Framework;
 
-namespace Engine.Graphics
+namespace Voxeliq.Engine.Graphics
 {
     /// <summary>
     /// Screen service for controlling screen.

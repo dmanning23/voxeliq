@@ -10,12 +10,12 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
 using System.Threading;
-using Engine.Assets;
-using Engine.Common.Extensions;
+using Voxeliq.Engine.Assets;
+using Voxeliq.Engine.Common.Extensions;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Engine.Debugging.Timing
+namespace Voxeliq.Engine.Debugging.Timing
 {
     /// <summary>
     /// Realtime CPU measuring tool

@@ -9,20 +9,20 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
-using Engine.Assets;
-using Engine.Blocks;
-using Engine.Chunks.Generators.Biomes;
-using Engine.Chunks.Generators.Terrain;
-using Engine.Chunks.Processors;
-using Engine.Common.Logging;
-using Engine.Common.Vector;
-using Engine.Debugging.Timing;
-using Engine.Graphics;
-using Engine.Universe;
+using Voxeliq.Engine.Assets;
+using Voxeliq.Engine.Blocks;
+using Voxeliq.Engine.Chunks.Generators.Biomes;
+using Voxeliq.Engine.Chunks.Generators.Terrain;
+using Voxeliq.Engine.Chunks.Processors;
+using Voxeliq.Engine.Common.Logging;
+using Voxeliq.Engine.Common.Vector;
+using Voxeliq.Engine.Debugging.Timing;
+using Voxeliq.Engine.Graphics;
+using Voxeliq.Engine.Universe;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Engine.Chunks
+namespace Voxeliq.Engine.Chunks
 {
     public interface IChunkCache
     {

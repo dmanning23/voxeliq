@@ -8,7 +8,7 @@
 using System;
 using Microsoft.Xna.Framework;
 
-namespace Engine.Platforms
+namespace Voxeliq.Engine.Platforms
 {
     /// <summary>
     /// Platform Manager that identifies platforms & manages them.

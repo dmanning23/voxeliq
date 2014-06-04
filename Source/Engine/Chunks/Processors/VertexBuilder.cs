@@ -5,16 +5,16 @@
  * it under the terms of the Microsoft Public License (Ms-PL).
  */
 
-using Engine.Blocks;
-using Engine.Common.Vector;
-using Engine.Graphics.Texture;
+using Voxeliq.Engine.Blocks;
+using Voxeliq.Engine.Common.Vector;
+using Voxeliq.Engine.Graphics.Texture;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Graphics.PackedVector;
 
 // TODO: Document this file!
 
-namespace Engine.Chunks.Processors
+namespace Voxeliq.Engine.Chunks.Processors
 {
     public interface IVertexBuilder
     {

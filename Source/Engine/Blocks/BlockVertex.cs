@@ -10,7 +10,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Graphics.PackedVector;
 
-namespace Engine.Blocks
+namespace Voxeliq.Engine.Blocks
 {
     /// Represents block vertex.
     [Serializable]

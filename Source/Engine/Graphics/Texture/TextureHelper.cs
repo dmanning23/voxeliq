@@ -6,12 +6,12 @@
  */
 
 using System.Collections.Generic;
-using Engine.Blocks;
+using Voxeliq.Engine.Blocks;
 using Microsoft.Xna.Framework.Graphics.PackedVector;
 
 // TODO: Document this file!
 
-namespace Engine.Graphics.Texture
+namespace Voxeliq.Engine.Graphics.Texture
 {
     /// <summary>
     /// Provides texture-helper methods like uv-mappings for blocks.

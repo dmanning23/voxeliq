@@ -9,7 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Engine.Common.Extensions
+namespace Voxeliq.Engine.Common.Extensions
 {
     public static class ArrayExtensions
     {

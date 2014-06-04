@@ -5,7 +5,7 @@
  * it under the terms of the Microsoft Public License (Ms-PL).
  */
 
-namespace Engine.Blocks
+namespace Voxeliq.Engine.Blocks
 {
     /// <summary>
     /// Basic block structure.

@@ -6,13 +6,13 @@
  */
 
 using System;
-using Engine.Assets;
-using Engine.Common.Logging;
-using Engine.Universe;
+using Voxeliq.Engine.Assets;
+using Voxeliq.Engine.Common.Logging;
+using Voxeliq.Engine.Universe;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Engine.Interface
+namespace Voxeliq.Engine.Interface
 {
     public class UserInterface : DrawableGameComponent
     {

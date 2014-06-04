@@ -9,7 +9,7 @@
 
 using System.Collections.Generic;
 
-namespace Engine.Debugging.Console
+namespace Voxeliq.Engine.Debugging.Console
 {
     class CommandHistory:List<string>
     {

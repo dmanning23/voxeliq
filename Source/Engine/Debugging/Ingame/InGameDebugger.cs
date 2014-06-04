@@ -6,15 +6,15 @@
  */
 
 using System;
-using Engine.Assets;
-using Engine.Chunks;
-using Engine.Common.Logging;
-using Engine.Graphics;
-using Engine.Universe;
+using Voxeliq.Engine.Assets;
+using Voxeliq.Engine.Chunks;
+using Voxeliq.Engine.Common.Logging;
+using Voxeliq.Engine.Graphics;
+using Voxeliq.Engine.Universe;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Engine.Debugging.Ingame
+namespace Voxeliq.Engine.Debugging.Ingame
 {
     public interface IInGameDebuggerService
     {

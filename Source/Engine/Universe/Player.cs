@@ -6,16 +6,16 @@
  */
 
 using System;
-using Engine.Assets;
-using Engine.Blocks;
-using Engine.Chunks;
-using Engine.Common.Logging;
-using Engine.Common.Vector;
-using Engine.Graphics;
+using Voxeliq.Engine.Assets;
+using Voxeliq.Engine.Blocks;
+using Voxeliq.Engine.Chunks;
+using Voxeliq.Engine.Common.Logging;
+using Voxeliq.Engine.Common.Vector;
+using Voxeliq.Engine.Graphics;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Engine.Universe
+namespace Voxeliq.Engine.Universe
 {
     /// <summary>
     /// Interface for controlling player.

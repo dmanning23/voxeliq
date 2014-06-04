@@ -9,7 +9,7 @@ using System;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Engine.Graphics.Drawing
+namespace Voxeliq.Engine.Graphics.Drawing
 {
     /* From FarSeer.DebugView - http://farseerphysics.codeplex.com/ */
 

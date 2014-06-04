@@ -7,14 +7,14 @@
 
 using System;
 using System.Collections.Generic;
-using Engine.Assets;
-using Engine.Debugging.Graphs.Implementations;
-using Engine.Debugging.Graphs.Implementations.ChunkGraphs;
-using Engine.Graphics.Drawing;
+using Voxeliq.Engine.Assets;
+using Voxeliq.Engine.Debugging.Graphs.Implementations;
+using Voxeliq.Engine.Debugging.Graphs.Implementations.ChunkGraphs;
+using Voxeliq.Engine.Graphics.Drawing;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Engine.Debugging.Graphs
+namespace Voxeliq.Engine.Debugging.Graphs
 {
     /// <summary>
     /// GraphManager can render debug graphs.

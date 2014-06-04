@@ -11,7 +11,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-namespace Engine.Debugging.Console
+namespace Voxeliq.Engine.Debugging.Console
 {
     public class GameConsoleOptions
     {

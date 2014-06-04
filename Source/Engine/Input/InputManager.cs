@@ -6,17 +6,17 @@
  */
 
 using System;
-using Engine.Chunks;
-using Engine.Common.Logging;
-using Engine.Debugging.Console;
-using Engine.Debugging.Ingame;
-using Engine.Graphics;
-using Engine.Graphics.Effects.PostProcessing.Bloom;
-using Engine.Universe;
+using Voxeliq.Engine.Chunks;
+using Voxeliq.Engine.Common.Logging;
+using Voxeliq.Engine.Debugging.Console;
+using Voxeliq.Engine.Debugging.Ingame;
+using Voxeliq.Engine.Graphics;
+using Voxeliq.Engine.Graphics.Effects.PostProcessing.Bloom;
+using Voxeliq.Engine.Universe;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 
-namespace Engine.Input
+namespace Voxeliq.Engine.Input
 {
     /// <summary>
     /// Interface that allows interracting with the input manager.

@@ -5,7 +5,7 @@
  * it under the terms of the Microsoft Public License (Ms-PL).
  */
 
-namespace Engine.Common.Extensions
+namespace Voxeliq.Engine.Common.Extensions
 {
     public static class NumberExtensions
     {

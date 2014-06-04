@@ -10,7 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Engine.Common.Extensions
+namespace Voxeliq.Engine.Common.Extensions
 {
     public static class EnumerableExtensions
     {

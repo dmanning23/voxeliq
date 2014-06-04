@@ -8,7 +8,7 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Engine.Debugging.Ingame
+namespace Voxeliq.Engine.Debugging.Ingame
 {
     public static class BoundingBoxRenderer
     {

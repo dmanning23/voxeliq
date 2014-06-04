@@ -10,10 +10,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Engine.Input;
+using Voxeliq.Engine.Input;
 using Microsoft.Xna.Framework.Input;
 
-namespace Engine.Debugging.Console
+namespace Voxeliq.Engine.Debugging.Console
 {
     class InputProcessor
     {

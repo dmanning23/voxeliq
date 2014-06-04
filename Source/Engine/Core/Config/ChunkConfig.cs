@@ -7,7 +7,7 @@
 
 using System;
 
-namespace Engine.Core.Config
+namespace Voxeliq.Engine.Core.Config
 {
     /// <summary>
     /// Contains configuration parameters for chunks.

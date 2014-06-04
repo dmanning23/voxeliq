@@ -5,14 +5,14 @@
  * it under the terms of the Microsoft Public License (Ms-PL).
  */
 
-using Engine.Blocks;
-using Engine.Chunks;
-using Engine.Common.Vector;
-using Engine.Graphics;
+using Voxeliq.Engine.Blocks;
+using Voxeliq.Engine.Chunks;
+using Voxeliq.Engine.Common.Vector;
+using Voxeliq.Engine.Graphics;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Engine.Universe
+namespace Voxeliq.Engine.Universe
 {
     public class Shovel : Weapon
     {

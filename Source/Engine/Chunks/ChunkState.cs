@@ -5,7 +5,7 @@
  * it under the terms of the Microsoft Public License (Ms-PL).
  */
 
-namespace Engine.Chunks
+namespace Voxeliq.Engine.Chunks
 {
     /// <summary>
     /// The chunk state.

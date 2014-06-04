@@ -6,11 +6,11 @@
  */
 
 using System;
-using Engine.Assets;
+using Voxeliq.Engine.Assets;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Engine.Graphics.Effects.PostProcessing.Bloom
+namespace Voxeliq.Engine.Graphics.Effects.PostProcessing.Bloom
 {
     public interface IBloomService
     {

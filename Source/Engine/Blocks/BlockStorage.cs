@@ -7,15 +7,15 @@
 
 using System;
 using System.Collections.Generic;
-using Engine.Chunks;
-using Engine.Common.Logging;
-using Engine.Common.Vector;
+using Voxeliq.Engine.Chunks;
+using Voxeliq.Engine.Common.Logging;
+using Voxeliq.Engine.Common.Vector;
 using Microsoft.Xna.Framework;
 
 // http://stackoverflow.com/questions/8162100/2d-array-with-wrapped-edges-in-c-sharp
 // http://www.voxeliq.org/page/story/_/devlog/optimizing-the-engine-i-r175
 
-namespace Engine.Blocks
+namespace Voxeliq.Engine.Blocks
 {
     /// <summary>
     /// Stores blocks data and allows access to it.

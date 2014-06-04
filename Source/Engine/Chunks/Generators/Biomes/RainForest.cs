@@ -6,11 +6,11 @@
  */
 
 using System;
-using Engine.Blocks;
-using Engine.Chunks.Generators.Terrain;
-using Engine.Common.Noise;
+using Voxeliq.Engine.Blocks;
+using Voxeliq.Engine.Chunks.Generators.Terrain;
+using Voxeliq.Engine.Common.Noise;
 
-namespace Engine.Chunks.Generators.Biomes
+namespace Voxeliq.Engine.Chunks.Generators.Biomes
 {
     /// <summary>
     /// Rain forest generator.

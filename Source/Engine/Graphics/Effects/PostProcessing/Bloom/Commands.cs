@@ -6,9 +6,9 @@
  * it under the terms of the Microsoft Public License (Ms-PL).
  */
 
-using Engine.Debugging.Console;
+using Voxeliq.Engine.Debugging.Console;
 
-namespace Engine.Graphics.Effects.PostProcessing.Bloom
+namespace Voxeliq.Engine.Graphics.Effects.PostProcessing.Bloom
 {
     [Command("bloom", "Changes bloom settings.\nusage: bloom [on|off|mode]")]
     public class BloomCommand : Command

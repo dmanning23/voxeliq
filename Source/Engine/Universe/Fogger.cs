@@ -5,12 +5,12 @@
  * it under the terms of the Microsoft Public License (Ms-PL).
  */
 
-using Engine.Chunks;
-using Engine.Common.Logging;
-using Engine.Debugging.Console;
+using Voxeliq.Engine.Chunks;
+using Voxeliq.Engine.Common.Logging;
+using Voxeliq.Engine.Debugging.Console;
 using Microsoft.Xna.Framework;
 
-namespace Engine.Universe
+namespace Voxeliq.Engine.Universe
 {
     public interface IFogger
     {

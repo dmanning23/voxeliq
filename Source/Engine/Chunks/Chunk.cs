@@ -7,14 +7,14 @@
 
 using System;
 using System.Collections.Generic;
-using Engine.Blocks;
-using Engine.Common.Vector;
-using Engine.Debugging.Ingame;
-using Engine.Graphics;
+using Voxeliq.Engine.Blocks;
+using Voxeliq.Engine.Common.Vector;
+using Voxeliq.Engine.Debugging.Ingame;
+using Voxeliq.Engine.Graphics;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Engine.Chunks
+namespace Voxeliq.Engine.Chunks
 {
     /// <summary>
     /// Unit drawable chunk of blocks.

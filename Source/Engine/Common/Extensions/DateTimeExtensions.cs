@@ -7,7 +7,7 @@
 
 using System;
 
-namespace Engine.Common.Extensions
+namespace Voxeliq.Engine.Common.Extensions
 {
     public static class DateTimeExtensions
     {

@@ -5,9 +5,9 @@
  * it under the terms of the Microsoft Public License (Ms-PL).
  */
 
-using Engine.Blocks;
+using Voxeliq.Engine.Blocks;
 
-namespace Engine.Chunks.Generators.Biomes
+namespace Voxeliq.Engine.Chunks.Generators.Biomes
 {
     public sealed class Desert : BiomeGenerator
     {

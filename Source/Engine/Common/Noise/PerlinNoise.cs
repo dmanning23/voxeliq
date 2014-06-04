@@ -7,7 +7,7 @@
 
 using System;
 
-namespace Engine.Common.Noise
+namespace Voxeliq.Engine.Common.Noise
 {
     /* Perlin noise class.  ( by Tom Nuydens (tom@delphi3d.net) )
      * Converted to C# by Mattias Fagerlund, Mattias.Fagerlund@cortego.se

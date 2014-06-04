@@ -5,12 +5,12 @@
  * it under the terms of the Microsoft Public License (Ms-PL).
  */
 
-using Engine.Debugging.Ingame;
-using Engine.Graphics;
+using Voxeliq.Engine.Debugging.Ingame;
+using Voxeliq.Engine.Graphics;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Engine.Universe
+namespace Voxeliq.Engine.Universe
 {
     public class Weapon : DrawableGameComponent, IInGameDebuggable
     {

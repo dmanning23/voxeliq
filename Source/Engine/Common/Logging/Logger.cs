@@ -8,7 +8,7 @@
 using System;
 using System.Globalization;
 
-namespace Engine.Common.Logging
+namespace Voxeliq.Engine.Common.Logging
 {
     /// <summary>
     /// Logger class that can log messages and exceptions to available log-targets.

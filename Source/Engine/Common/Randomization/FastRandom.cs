@@ -11,7 +11,7 @@ using System;
 
 // Use MathDotNet.Numerics.Xorshift maybe? http://numerics.mathdotnet.com/random-numbers/ /raist.
 
-namespace Engine.Common.Randomization
+namespace Voxeliq.Engine.Common.Randomization
 {
     /// <summary>
     /// A fast random number generator for .NET

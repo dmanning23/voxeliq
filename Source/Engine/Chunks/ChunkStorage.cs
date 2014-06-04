@@ -6,11 +6,11 @@
  */
 
 using System.Collections.Generic;
-using Engine.Common;
-using Engine.Common.Vector;
+using Voxeliq.Engine.Common;
+using Voxeliq.Engine.Common.Vector;
 using Microsoft.Xna.Framework;
 
-namespace Engine.Chunks
+namespace Voxeliq.Engine.Chunks
 {
     /// <summary>
     /// Allows interaction with the chunk storage service.

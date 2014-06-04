@@ -5,7 +5,7 @@
  * it under the terms of the Microsoft Public License (Ms-PL).
  */
 
-namespace Engine.Platforms
+namespace Voxeliq.Engine.Platforms
 {
     /// <summary>
     /// .Net frameworks.

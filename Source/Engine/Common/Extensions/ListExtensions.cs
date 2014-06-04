@@ -7,7 +7,7 @@
 
 using System.Collections.Generic;
 
-namespace Engine.Common.Extensions
+namespace Voxeliq.Engine.Common.Extensions
 {
     public static class ListExtensions
     {

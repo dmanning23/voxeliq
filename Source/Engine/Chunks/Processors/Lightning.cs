@@ -5,9 +5,9 @@
  * it under the terms of the Microsoft Public License (Ms-PL).
  */
 
-using Engine.Blocks;
+using Voxeliq.Engine.Blocks;
 
-namespace Engine.Chunks.Processors
+namespace Voxeliq.Engine.Chunks.Processors
 {
     /// <summary>
     /// Ligten processor.

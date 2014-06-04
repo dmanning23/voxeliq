@@ -7,7 +7,7 @@
 
 using System;
 
-namespace Engine.Universe
+namespace Voxeliq.Engine.Universe
 {
     /// <summary>
     /// Processes universe time.

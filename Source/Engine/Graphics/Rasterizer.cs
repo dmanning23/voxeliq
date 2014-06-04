@@ -5,10 +5,10 @@
  * it under the terms of the Microsoft Public License (Ms-PL).
  */
 
-using Engine.Debugging.Console;
+using Voxeliq.Engine.Debugging.Console;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Engine.Graphics
+namespace Voxeliq.Engine.Graphics
 {
     /// <summary>
     /// Rasterizer helper.
